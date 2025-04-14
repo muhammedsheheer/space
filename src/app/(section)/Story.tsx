@@ -5,11 +5,9 @@ import React from "react";
 
 const Story: React.FC = () => {
   return (
-    <section className="relative flex h-full w-full flex-col gap-9 bg-[#fff] pb-12 pt-12 md:pb-24 md:pt-24">
+    <section className="relative flex h-full w-full flex-col gap-9 bg-[#000] pb-12 pt-12 md:pb-24 md:pt-24">
       <div className="flex w-full flex-col items-center justify-center gap-3 px-[70px] md:flex-row md:justify-between">
-        <div className="hidden md:block">
-          <p className="text-white">space</p>
-        </div>
+        <div className="hidden md:block"></div>
         <p className="w-full text-center font-open_sans text-3xl font-[400] uppercase text-[#D3A641] md:w-fit md:text-4xl md:tracking-[10px]">
           EXPLORE OUR TASTE
         </p>
