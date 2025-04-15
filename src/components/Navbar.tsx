@@ -61,8 +61,9 @@ const Navbar = ({
           >
             <Link
               href={"/"}
-              className="flex flex-row items-center justify-center gap-1 font-open_sans text-base font-[400] uppercase leading-[25px] tracking-[1.6px] text-white"
+              className="z-20 flex flex-row items-center justify-center gap-1 font-open_sans text-base font-[600] uppercase leading-[25px] tracking-[1.6px] text-[#fff]"
             >
+              {/* <div className="h-3 w-3 rotate-45 bg-[#A27C26]" /> */}
               <Image
                 src={"/images/home/hero/dot.svg"}
                 width={281}
@@ -74,8 +75,9 @@ const Navbar = ({
             </Link>
             <Link
               href={"/menu"}
-              className="flex flex-row items-center justify-center gap-1 font-open_sans text-base font-[400] uppercase leading-[25px] tracking-[1.6px] text-white"
+              className="flex flex-row items-center justify-center gap-1 font-open_sans text-base font-[600] uppercase leading-[25px] tracking-[1.6px] text-[#fff]"
             >
+              {/* <div className="h-3 w-3 rotate-45 bg-[#A27C26]" /> */}
               <Image
                 src={"/images/home/hero/dot.svg"}
                 width={281}
@@ -87,8 +89,9 @@ const Navbar = ({
             </Link>
             <Link
               href={"/about-us"}
-              className="flex flex-row items-center justify-center gap-1 font-open_sans text-base font-[400] uppercase leading-[25px] tracking-[1.6px] text-white"
+              className="flex flex-row items-center justify-center gap-1 font-open_sans text-base font-[600] uppercase leading-[25px] tracking-[1.6px] text-[#fff]"
             >
+              {/* <div className="h-3 w-3 rotate-45 bg-[#A27C26]" /> */}
               <Image
                 src={"/images/home/hero/dot.svg"}
                 width={281}
@@ -100,34 +103,35 @@ const Navbar = ({
             </Link>
             {/* <Link
               href={"/about-us"}
-              className="flex flex-row items-center justify-center gap-1 font-open_sans text-base font-[400] uppercase leading-[25px] tracking-[1.6px] text-white"
+              className="flex flex-row items-center justify-center gap-1 font-open_sans text-base font-[600] uppercase leading-[25px] tracking-[1.6px] text-[#fff]"
             >
-              <Image
-                src={"/images/home/hero/dot.svg"}
-                width={281}
-                height={74}
-                alt="logo"
-                className="h-5 w-2"
-              />{" "}
+              // <Image
+              //   src={"/images/home/hero/dot.svg"}
+              //   width={281}
+              //   height={74}
+              //   alt="logo"
+              //   className="h-5 w-2"
+              // />{" "}
               About
             </Link> */}
             {/* <Link
               href={""}
-              className="flex flex-row items-center justify-center gap-1 font-open_sans text-base font-[400] uppercase leading-[25px] tracking-[1.6px] text-white"
+              className="flex flex-row items-center justify-center gap-1 font-open_sans text-base font-[600] uppercase leading-[25px] tracking-[1.6px] text-[#fff]"
             >
-              <Image
-                src={"/images/home/hero/dot.svg"}
-                width={281}
-                height={74}
-                alt="logo"
-                className="h-5 w-2"
-              />{" "}
+              // <Image
+              //   src={"/images/home/hero/dot.svg"}
+              //   width={281}
+              //   height={74}
+              //   alt="logo"
+              //   className="h-5 w-2"
+              // />{" "}
               Food & Drinks
             </Link> */}
             <Link
               href={"/table-booking"}
-              className="flex flex-row items-center justify-center gap-1 font-open_sans text-base font-[400] uppercase leading-[25px] tracking-[1.6px] text-white"
+              className="flex flex-row items-center justify-center gap-1 font-open_sans text-base font-[600] uppercase leading-[25px] tracking-[1.6px] text-[#fff]"
             >
+              {/* <div className="h-3 w-3 rotate-45 bg-[#A27C26]" /> */}
               <Image
                 src={"/images/home/hero/dot.svg"}
                 width={281}
@@ -139,8 +143,9 @@ const Navbar = ({
             </Link>
             <Link
               href={"/contact"}
-              className="flex flex-row items-center justify-center gap-1 font-open_sans text-base font-[400] uppercase leading-[25px] tracking-[1.6px] text-white"
+              className="flex flex-row items-center justify-center gap-1 font-open_sans text-base font-[600] uppercase leading-[25px] tracking-[1.6px] text-[#fff]"
             >
+              {/* <div className="h-3 w-3 rotate-45 bg-[#A27C26]" /> */}
               <Image
                 src={"/images/home/hero/dot.svg"}
                 width={281}
@@ -152,8 +157,9 @@ const Navbar = ({
             </Link>
             <Link
               href={"/pdf/dining.pdf"}
-              className="flex flex-row items-center justify-center gap-1 font-open_sans text-base font-[400] uppercase leading-[25px] tracking-[1.6px] text-white"
+              className="flex flex-row items-center justify-center gap-1 font-open_sans text-base font-[600] uppercase leading-[25px] tracking-[1.6px] text-[#fff]"
             >
+              {/* <div className="h-3 w-3 rotate-45 bg-[#A27C26]" /> */}
               <Image
                 src={"/images/home/hero/dot.svg"}
                 width={281}
@@ -165,8 +171,9 @@ const Navbar = ({
             </Link>
             <Link
               href={"/pdf/breakfast.pdf"}
-              className="flex flex-row items-center justify-center gap-1 font-open_sans text-base font-[400] uppercase leading-[25px] tracking-[1.6px] text-white"
+              className="flex flex-row items-center justify-center gap-1 font-open_sans text-base font-[600] uppercase leading-[25px] tracking-[1.6px] text-[#fff]"
             >
+              {/* <div className="h-3 w-3 rotate-45 bg-[#A27C26]" /> */}
               <Image
                 src={"/images/home/hero/dot.svg"}
                 width={281}
@@ -190,7 +197,7 @@ const Navbar = ({
                 width={281}
                 height={74}
                 alt="logo"
-                className="w-20"
+                className="w-32"
               />
             </Link>
           </div>

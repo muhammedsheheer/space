@@ -56,7 +56,7 @@ const Hero: React.FC = () => {
         <source src="/video/bg.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <div className="absolute inset-0 bg-black/60" />
+      <div className="absolute inset-0 bg-black/40" />
 
       <div className="absolute z-20 hidden h-[150px] w-full items-center justify-center md:flex">
         <Link href={"/"}>
@@ -66,14 +66,20 @@ const Hero: React.FC = () => {
           >
             Book Now
           </Button> */}
-          <Image src="/images/logo.png" width={152} height={83} alt="" />
+          <Image
+            src="/images/logo.png"
+            width={152}
+            height={83}
+            alt=""
+            className="w-64"
+          />
         </Link>
       </div>
 
       <div className="relative flex h-full flex-col items-center justify-center gap-3 text-white md:ml-16">
         <div>
           <h1
-            className="text-center font-open_sans text-6xl font-light uppercase md:text-[190px] md:tracking-[40px]"
+            className="z-20 text-center font-open_sans text-6xl font-light uppercase text-[#A27C26] md:text-[190px] md:tracking-[40px]"
             style={{
               background: "linear-gradient(180deg, #FFF 0%, #191717 100%)",
               WebkitBackgroundClip: "text",
@@ -84,7 +90,7 @@ const Hero: React.FC = () => {
           </h1>
         </div>
         <Link href="/table-booking" className="relative z-50">
-          <Button className="z-50 mt-[50px] rounded-none bg-white px-7 py-6 font-open_sans tracking-[2px] text-black">
+          <Button className="z-50 mt-[50px] rounded-none bg-[#fff] px-7 py-6 font-open_sans tracking-[2px] text-black">
             RESERVE
           </Button>
         </Link>

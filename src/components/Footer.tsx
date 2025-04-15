@@ -19,7 +19,7 @@ const Footer = ({}) => {
                     width={152}
                     height={83}
                     alt="logo"
-                    className="w-36 md:w-60"
+                    className="w-52 md:w-80"
                   />
                 </Link>
               </div>
