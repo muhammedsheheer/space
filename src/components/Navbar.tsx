@@ -101,6 +101,20 @@ const Navbar = ({
               />{" "}
               Our Story
             </Link>
+            <Link
+              href={"/gallery"}
+              className="flex flex-row items-center justify-center gap-1 font-open_sans text-base font-[600] uppercase leading-[25px] tracking-[1.6px] text-[#fff]"
+            >
+              {/* <div className="h-3 w-3 rotate-45 bg-[#A27C26]" /> */}
+              <Image
+                src={"/images/home/hero/dot.svg"}
+                width={281}
+                height={74}
+                alt="logo"
+                className="h-5 w-2"
+              />{" "}
+              Gallery
+            </Link>
             {/* <Link
               href={"/about-us"}
               className="flex flex-row items-center justify-center gap-1 font-open_sans text-base font-[600] uppercase leading-[25px] tracking-[1.6px] text-[#fff]"

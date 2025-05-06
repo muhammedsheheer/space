@@ -4,7 +4,7 @@ const BavetteStory = ({}) => {
   return (
     <section className="relative flex h-full w-full items-center justify-center bg-[#000] p-4 lg:py-16">
       <div className="flex h-full w-full flex-col items-center justify-center gap-11 bg-[#000]">
-        <h2 className="font-oswald text-center text-4xl text-[#fff] md:left-[15%] md:text-8xl">
+        <h2 className="font-oswald text-center text-5xl text-[#fff] md:left-[15%] md:text-8xl">
           The Space Aigburth
           <br />
           Story
@@ -12,7 +12,7 @@ const BavetteStory = ({}) => {
         <div className="flex h-full w-full flex-col items-center justify-center gap-4 bg-[#000] md:flex-row lg:px-24 lg:py-20">
           <div className="h-full w-full overflow-hidden p-4 md:w-1/2 md:p-0">
             <Image
-              src="/images/about-us/image3.jpg"
+              src="/images/about-us/3.jpg"
               width={577}
               height={676}
               alt="private dining"
@@ -20,7 +20,7 @@ const BavetteStory = ({}) => {
             />
           </div>
           <div className="flex h-full w-full flex-col items-center gap-[2.5rem] p-6 md:w-1/2 md:items-start lg:ml-24">
-            <h1 className="font-oswald max-w-[500px] text-center text-4xl text-[#fff] md:text-start md:text-7xl">
+            <h1 className="font-oswald max-w-[500px] text-center text-5xl text-[#fff] md:text-start md:text-7xl">
               From Passion
               <br />
               to Perfection

@@ -29,59 +29,65 @@ const Sidebar: FC<SidebarProps> = ({ children }) => {
               className="w-28"
             />
           </SheetTitle>
-          <SheetDescription className="flex w-full flex-col items-start justify-start gap-7 pt-14">
+          <SheetDescription className="flex w-full flex-col items-center justify-center gap-7 pt-14">
             <Link
               href="/"
-              className="font-playfair flex w-full justify-start p-0 text-3xl font-normal text-white"
+              className="flex w-full justify-center p-0 font-birthstone text-3xl font-normal text-white"
             >
               Home
             </Link>
             <Link
               href="/menu"
-              className="font-playfair flex w-full justify-start p-0 text-3xl font-normal text-white"
+              className="flex w-full justify-center p-0 font-birthstone text-3xl font-normal text-white"
             >
               Menu
             </Link>
             <Link
               href="/about-us"
-              className="font-playfair flex w-full justify-start p-0 text-3xl font-normal text-white"
+              className="flex w-full justify-center p-0 font-birthstone text-3xl font-normal text-white"
             >
               Our Story
             </Link>
             <Link
               href="/contact"
-              className="font-playfair flex w-full justify-start p-0 text-3xl font-normal text-white"
+              className="flex w-full justify-center p-0 font-birthstone text-3xl font-normal text-white"
             >
               Contact
             </Link>
             <Link
+              href="/gallery"
+              className="flex w-full justify-center p-0 font-birthstone text-3xl font-normal text-white"
+            >
+              Gallery
+            </Link>
+            <Link
               href="/table-booking"
-              className="font-playfair flex w-full justify-start p-0 text-3xl font-normal text-white"
+              className="flex w-full justify-center p-0 font-birthstone text-3xl font-normal text-white"
             >
               Reservation
             </Link>
-            <Link
+            {/* <Link
               href={"/pdf/dining.pdf"}
-              className="font-playfair flex w-full justify-start p-0 text-3xl font-normal text-white"
+              className="flex w-full justify-center p-0 font-birthstone text-3xl font-normal text-white"
             >
               Dining Menu
             </Link>
             <Link
               href={"/pdf/breakfast.pdf"}
-              className="font-playfair flex w-full justify-start p-0 text-3xl font-normal text-white"
+              className="flex w-full justify-center p-0 font-birthstone text-3xl font-normal text-white"
             >
               Breakfast Menu
-            </Link>
+            </Link> */}
             {/* <Link
               href=""
-              className="font-playfair flex w-full justify-start p-0 text-3xl font-normal text-white"
+              className="font-birthstone flex w-full justify-center p-0 text-3xl font-normal text-white"
             >
               Food & Drinks
             </Link> */}
 
             {/* <Button
                             variant="link"
-                            className={cn("w-full flex justify-start p-0 uppercase text-accent text-white border-b-[1px] border-b-gray-800")}
+                            className={cn("w-full flex justify-center p-0 uppercase text-accent text-white border-b-[1px] border-b-gray-800")}
                             asChild
                         >
                             <Link href="/menu" className="flex gap-2 py-6"><Dock /> <span>Menu</span></Link>
@@ -89,13 +95,13 @@ const Sidebar: FC<SidebarProps> = ({ children }) => {
                         <Button
                             asChild
                             variant="link"
-                            className="w-full flex justify-start p-0 uppercase text-accent text-white border-b-[1px] border-b-gray-800"
+                            className="w-full flex justify-center p-0 uppercase text-accent text-white border-b-[1px] border-b-gray-800"
                         >
                             <Link href="/about-us" className="flex gap-2 py-6"><ShieldQuestion /> <span>About</span> </Link>
                         </Button>
                         <Button
                             variant="link"
-                            className="w-full flex justify-start p-0 uppercase text-accent text-white border-b-[1px] border-b-gray-800"
+                            className="w-full flex justify-center p-0 uppercase text-accent text-white border-b-[1px] border-b-gray-800"
                             asChild
                         >
                             <Link href="/contact" className="flex gap-2 py-6"><Phone /> <span>Contact</span></Link>
@@ -103,14 +109,14 @@ const Sidebar: FC<SidebarProps> = ({ children }) => {
                         <Button
                             asChild
                             variant="link"
-                            className="w-full flex justify-start px-1 p-0 uppercase text-accent text-white border-b-[1px] border-b-gray-800"
+                            className="w-full flex justify-center px-1 p-0 uppercase text-accent text-white border-b-[1px] border-b-gray-800"
                         >
                             <Link href="/table-booking" className="flex gap-2 py-6"><BookCheck /> <span>Booking</span> </Link>
                         </Button>
                         <Button
                             asChild
                             variant="link"
-                            className="w-full flex justify-start p-0 uppercase text-accent text-white"
+                            className="w-full flex justify-center p-0 uppercase text-accent text-white"
                         >
                             <Link href="/gift-voucher" className="flex gap-2 py-6" ><Gift /> <span>Gift Voucher</span></Link>
                         </Button> */}

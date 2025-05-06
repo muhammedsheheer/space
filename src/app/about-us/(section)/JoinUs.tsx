@@ -7,19 +7,19 @@ const JoinUs = ({}) => {
     <section
       className="relative flex h-screen w-full items-center justify-center"
       style={{
-        backgroundImage: `url('/images/about-us/image4.jpg')`,
+        backgroundImage: `url('/images/about-us/4.jpg')`,
         backgroundSize: "cover",
       }}
     >
       <div className="absolute inset-0 bg-black/50" />
       <div className="z-10 flex h-full w-full flex-col-reverse items-center justify-center gap-4 md:flex-row">
         <div className="flex h-full w-full flex-col items-center justify-center gap-[2.5rem] p-6">
-          <h1 className="font-oswald z-10 max-w-[500px] text-center text-4xl text-[#fff] md:text-5xl md:leading-[60px]">
+          <h1 className="font-oswald max-w-[500px] text-center text-5xl text-[#fff] md:leading-[60px]">
             Join Us for an
             <br />
             Unforgettable Dining Experience
           </h1>
-          <p className="z-10 max-w-[450px] text-center font-[600] leading-[160%] text-[#ffff]">
+          <p className="max-w-[450px] text-center font-[500] leading-[160%] text-[#ffff]">
             Whether you`re planning a cozy dinner or a grand celebration, Space
             Aigburth invites you on a remarkable culinary journey. From
             meticulously crafted flavors to the finest hand-selected

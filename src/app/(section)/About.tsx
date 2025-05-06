@@ -1,10 +1,17 @@
 import Image from "next/image";
 import React from "react";
+import { motion } from "framer-motion";
 
 function About() {
   return (
     <section className="relative flex h-fit w-full items-end justify-center px-4 py-12 md:h-screen md:px-[50px] md:py-20">
-      <div className="absolute left-0 hidden md:block">
+      <motion.div
+        className="absolute left-0 hidden md:block"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: false }}
+        transition={{ duration: 1.5, ease: "easeOut" }}
+      >
         <Image
           src="/images/home/about/1.png"
           width={289}
@@ -12,8 +19,14 @@ function About() {
           alt="image2"
           className="h-auto w-full md:h-[460px]"
         />
-      </div>
-      <div className="absolute right-8 z-50 hidden md:block">
+      </motion.div>
+      <motion.div
+        className="absolute right-8 z-50 hidden md:block"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: false }}
+        transition={{ duration: 1.5, ease: "easeOut" }}
+      >
         <Image
           src="/images/home/about/3.png"
           width={289}
@@ -21,8 +34,14 @@ function About() {
           alt="image2"
           className="h-auto w-full md:h-[460px]"
         />
-      </div>
-      <div className="absolute right-[22%] z-50 hidden md:block">
+      </motion.div>
+      <motion.div
+        className="absolute right-[22%] z-50 hidden md:block"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: false }}
+        transition={{ duration: 1.5, ease: "easeOut" }}
+      >
         <Image
           src="/images/home/about/2.png"
           width={289}
@@ -30,8 +49,14 @@ function About() {
           alt="image2"
           className="h-auto w-full md:h-[330px]"
         />
-      </div>
-      <div className="absolute left-[35%] hidden md:block">
+      </motion.div>
+      <motion.div
+        className="absolute left-[35%] hidden md:block"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: false }}
+        transition={{ duration: 1.5, ease: "easeOut" }}
+      >
         <div className="flex flex-col items-start justify-start gap-3">
           <p className="text-center font-inter text-3xl uppercase tracking-[3px] text-[#A27C26]">
             ABOUT US
@@ -43,7 +68,7 @@ function About() {
             they can to make your dining experience a more pleasurable one.
           </p>
         </div>
-      </div>
+      </motion.div>
 
       <div className="absolute flex h-full w-full items-start justify-center py-8">
         <p
@@ -58,14 +83,24 @@ function About() {
         </p>
       </div>
       <div className="flex flex-col gap-6 pt-6 md:hidden">
-        <Image
+        <motion.img
           src="/images/home/about/1.png"
           width={289}
           height={489}
           alt="image2"
           className="h-auto w-full lg:h-[460px] lg:w-[289px]"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: false }}
+          transition={{ duration: 1.5, ease: "easeOut" }}
         />
-        <div className="flex flex-col items-start justify-start gap-3">
+        <motion.div
+          className="flex flex-col items-start justify-start gap-3"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: false }}
+          transition={{ duration: 1.5, ease: "easeOut" }}
+        >
           <p className="text-center font-inter text-3xl uppercase tracking-[3px] text-[#A27C26]">
             ABOUT US
           </p>
@@ -75,20 +110,28 @@ function About() {
             waitresses. The attentive staff will be happy to help in any way
             they can to make your dining experience a more pleasurable one.
           </p>
-        </div>
-        <Image
+        </motion.div>
+        <motion.img
           src="/images/home/about/2.png"
           width={289}
           height={489}
           alt="image2"
           className="h-auto w-full lg:h-[460px] lg:w-[289px]"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: false }}
+          transition={{ duration: 1.5, ease: "easeOut" }}
         />
-        <Image
+        <motion.img
           src="/images/home/about/3.png"
           width={289}
           height={489}
           alt="image2"
           className="h-auto w-full lg:h-[460px] lg:w-[289px]"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: false }}
+          transition={{ duration: 1.5, ease: "easeOut" }}
         />
       </div>
     </section>

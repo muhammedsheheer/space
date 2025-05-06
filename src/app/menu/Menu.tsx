@@ -247,7 +247,7 @@ export default function Menu() {
           className="relative hidden h-[30vh] w-full bg-black md:flex"
           style={{
             background:
-              "linear-gradient(170deg, rgba(0, 0, 0, 0.00) 7.51%, rgba(0, 0, 0, 0.80) 92.93%), url('/images/menuhero.jpg') lightgray 50% / cover no-repeat",
+              "linear-gradient(170deg, rgba(0, 0, 0, 0.00) 7.51%, rgba(0, 0, 0, 0.80) 92.93%), url('/images/about-us/1.jpg') lightgray 50% / cover no-repeat",
           }}
         >
           {/* <div className="absolute left-0 top-0 flex h-full w-full items-end justify-end px-12 py-12">
@@ -260,7 +260,7 @@ export default function Menu() {
           </div> */}
         </div>
         {/* Categories */}
-        <div className="sticky top-0 z-10 flex items-center bg-[#D3A641] px-4 py-2">
+        <div className="sticky top-0 z-10 flex items-center bg-[#000] px-4 py-2">
           <div
             ref={categoryNavRef}
             className="hidden-scrollbar flex overflow-x-auto py-2"
@@ -281,7 +281,7 @@ export default function Menu() {
                       "shrink-0 rounded-none font-semibold transition-colors",
                       activeCategory === category._id
                         ? "bg-menuprimary text-menuforeground hover:bg-buttonhover"
-                        : "border-[1px] border-menuprimary bg-transparent text-[#000] hover:bg-menuprimary hover:text-menuforeground",
+                        : "border-[1px] border-menuprimary bg-transparent text-[#D3A641] hover:bg-menuprimary hover:text-menuforeground",
                       // existCategory.find((categoryid) => categoryid === category._id) !== category._id && "hidden w-0 border-0 px-0 py-0"
                       // category.items.length === 0 && "hidden pb-0 h-0 border-0 px-0 py-0"
                     )}

@@ -53,7 +53,10 @@ const Hero: React.FC = () => {
         className="absolute left-0 top-0 h-full w-full object-cover"
         poster="/images/space.png"
       >
-        <source src="/video/bg.mp4" type="video/mp4" />
+        <source
+          src="https://d8q1b3smcycac.cloudfront.net/space/space-cafe-web3.mp4"
+          type="video/mp4"
+        />
         Your browser does not support the video tag.
       </video>
       <div className="absolute inset-0 bg-black/40" />
@@ -79,7 +82,7 @@ const Hero: React.FC = () => {
       <div className="relative flex h-full flex-col items-center justify-center gap-3 text-white md:ml-16">
         <div>
           <h1
-            className="z-20 text-center font-open_sans text-6xl font-light uppercase text-[#A27C26] md:text-[190px] md:tracking-[40px]"
+            className="z-20 text-center font-open_sans text-7xl font-light uppercase text-[#A27C26] md:text-[190px] md:tracking-[40px]"
             style={{
               background: "linear-gradient(180deg, #FFF 0%, #191717 100%)",
               WebkitBackgroundClip: "text",
@@ -90,7 +93,7 @@ const Hero: React.FC = () => {
           </h1>
         </div>
         <Link href="/table-booking" className="relative z-50">
-          <Button className="z-50 mt-[50px] rounded-none bg-[#fff] px-7 py-6 font-open_sans tracking-[2px] text-black">
+          <Button className="z-50 mt-[50px] rounded-none bg-[#151414] px-7 py-6 font-open_sans tracking-[2px] text-[#fff] md:px-8 md:py-7">
             RESERVE
           </Button>
         </Link>
